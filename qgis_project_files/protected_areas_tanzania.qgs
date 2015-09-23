@@ -33,7 +33,7 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="tz_srtm_41_hillshade20150904132705244" name="tz_srtm_41_hillshade">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20150908112655393" name="OpenStreetMap">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20150908112655393" name="OpenStreetMap">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="world_adm020150607011554821" name="world_adm0">
@@ -44,42 +44,32 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>3668940.40296369139105082</xmin>
-      <ymin>-499403.14408566488418728</ymin>
-      <xmax>4095899.33575849141925573</xmax>
-      <ymax>-263235.90176151168998331</ymax>
+      <xmin>-172934.66549628449138254</xmin>
+      <ymin>9501860.35077386535704136</ymin>
+      <xmax>255222.79463310522260144</xmax>
+      <ymax>9738508.70632903650403023</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
-        <projectionacronym>merc</projectionacronym>
+        <proj4>+proj=utm +zone=37 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3187</srsid>
+        <srid>32737</srid>
+        <authid>EPSG:32737</authid>
+        <description>WGS 84 / UTM zone 37S</description>
+        <projectionacronym>utm</projectionacronym>
         <ellipsoidacronym>WGS84</ellipsoidacronym>
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150908112655393"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="WDPA_June2015_TZA_shapefile_polygons20150607010149065"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_adm020150607011554821"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150908112118685"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania_copy20150904075256703"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterbodies_africa20150607011609661"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tz_srtm_41_hillshade20150904132705244"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20150908110053885"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="qdgc_01_tza20150904134122280"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_adm0_copy20150904080227941"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="railways20150908104736434"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150607011711456"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways20150908110046021"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20150908112321379"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania20150607011923245"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_0_520150904134242241"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="WDPA_June2015_TZA_shapefile_polygons20150607010149065"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania_copy20150904075256703"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterbodies_africa20150607011609661"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tz_srtm_41_hillshade20150904132705244"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_adm0_copy20150904080227941"/>
+      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania20150607011923245"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
@@ -146,9 +136,9 @@
         <legendlayerfile isInOverview="0" layerid="tz_srtm_41_hillshade20150904132705244" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OpenStreetMap" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150908112655393" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20150908112655393" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="world_adm0" showFeatureCount="0">
@@ -464,7 +454,7 @@
       </ComposerMap>
     </Composition>
   </Composer>
-  <Composer title="Area focus atlas" visible="0">
+  <Composer title="Area atlas" visible="0">
     <Composition gridVisible="0" printResolution="600" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="1" generateWorldFile="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -583,28 +573,21 @@
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="QGIS" htmlState="0" halign="1">
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;table>&#xa;&lt;tr>&#xa;&lt;td>Area&lt;/td>&lt;td>[%to_int( $area /1000000 )%] km2&lt;/td>&#xa;&lt;/tr>&#xa;&lt;tr>&#xa;&lt;td>Perimeter&lt;/td>&lt;td>[%to_int($perimeter/1000) %] km&lt;/td>&#xa;&lt;/tr>&#xa;&lt;/table>" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="42.7544" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="248.51" y="42.7544" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="41.1511" outlineWidth="0.3" excludeFromExports="0" uuid="{4a062875-cf05-4966-b2e8-efd8faea3fb0}" height="53.443" itemRotation="0" frame="false" pagex="248.51">
+        <ComposerItem pagey="29.2059" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="188.556" y="29.2059" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.7" outlineWidth="0.3" excludeFromExports="0" uuid="{4a062875-cf05-4966-b2e8-efd8faea3fb0}" height="20.591" itemRotation="0" frame="false" pagex="188.556">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="36.8757" file="../data_repository/icons_logos/NEMC.jpg" pictureHeight="32.6965" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="109.437" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="252.38" y="109.437" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.8757" outlineWidth="0.3" excludeFromExports="0" uuid="{92ee7bc1-bd83-4e7c-9952-830ee4fdaa0c}" height="33.6691" itemRotation="0" frame="false" pagex="252.38">
-          <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
-        </ComposerItem>
-      </ComposerPicture>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="10000" segmentSizeMode="0" alignment="0" numSegments="2" segmentMillimeters="4.9388" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="1" maxBarWidth="150" height="2" boxContentSpace="1" mapId="1" unitLabel="km">
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="10000" segmentSizeMode="0" alignment="0" numSegments="2" segmentMillimeters="28.168" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="1" maxBarWidth="150" height="2" boxContentSpace="1" mapId="1" unitLabel="km">
         <scaleBarFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="188.2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.827" y="188.2" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="28.3164" outlineWidth="0.3" excludeFromExports="0" uuid="{40370744-68a8-48da-93bc-d67b729ede97}" height="13.952" itemRotation="0" frame="false" pagex="7.827">
+        <ComposerItem pagey="188.2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.827" y="188.2" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="98.0039" outlineWidth="0.3" excludeFromExports="0" uuid="{40370744-68a8-48da-93bc-d67b729ede97}" height="13.952" itemRotation="0" frame="false" pagex="7.827">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -901,7 +884,7 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="63.3454" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="188.556" y="63.3454" visibility="1" zValue="2" background="true" transparency="16" frameJoinStyle="miter" blendMode="0" width="55.3" outlineWidth="0.3" excludeFromExports="0" uuid="{d91bd263-e3dc-440c-9568-0294fe55188b}" height="89.9" itemRotation="0" frame="false" pagex="188.556">
+        <ComposerItem pagey="63.3454" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="188.556" y="63.3454" visibility="1" zValue="2" background="true" transparency="16" frameJoinStyle="miter" blendMode="0" width="55.3" outlineWidth="0.3" excludeFromExports="0" uuid="{d91bd263-e3dc-440c-9568-0294fe55188b}" height="47.9" itemRotation="0" frame="false" pagex="188.556">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         </ComposerItem>
@@ -11452,21 +11435,21 @@
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <Measure>
-      <Ellipsoid type="QString">NONE</Ellipsoid>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
     </Measure>
     <WMSPrecision type="QString">8</WMSPrecision>
     <WFSTLayers>
@@ -11557,9 +11540,9 @@
       <filterByMap type="bool">false</filterByMap>
     </Legend>
     <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=utm +zone=36 +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:32636</ProjectCrs>
-      <ProjectCRSID type="int">3120</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=37 +south +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:32737</ProjectCrs>
+      <ProjectCRSID type="int">3187</ProjectCRSID>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <DefaultStyles>
