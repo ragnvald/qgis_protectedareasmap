@@ -7,7 +7,7 @@ The purpose of this project is also to show how QGIS used to its potential can p
 
 The system is based on the following sources of data:
 
-* Your own relieff map
+* Your own relieff (hillshade) map
 * Protected areas sample imagery, your own or from other sources
 * OpenStreetmap data
 * Protected areas data from the protectedplanet.net
@@ -19,7 +19,7 @@ The QGIS project file contains relevant styling and composer maps. There are two
 * Main map (national scale) - selected protected area categories
 * Protected areas atlas - selected protected area categories
 
-The project files are part of this product. Source data carries its own license and must be respected as such. Procided data are according to relevant licenses.
+The project files are part of this product. Source data carries its own license and must be respected as such. Provided data are according to relevant licenses.
 
 
 Ragnvald Larsen
