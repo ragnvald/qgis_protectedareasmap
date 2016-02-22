@@ -14,8 +14,10 @@
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="roads_copy20151102214259220" name="roads copy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="Protected_area_categories_copy20151102214806081" name="Protected area categories">
-        <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Protected_area_categories_copy20151102214806081" name="Protected area categories">
+        <customproperties>
+          <property key="showFeatureCount" value="1"/>
+        </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Above 1:300.000">
@@ -71,50 +73,42 @@
   </layer-tree-group>
   <relations/>
   <mapcanvas>
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>148060.74985157506307587</xmin>
-      <ymin>8948389.94970966130495071</ymin>
-      <xmax>570274.3652923135086894</xmax>
-      <ymax>9571279.91068548709154129</ymax>
+      <xmin>34.71278936554530503</xmin>
+      <ymin>-9.79277029933436438</ymin>
+      <xmax>40.99637181519456419</xmax>
+      <ymax>-6.27843290696373035</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=utm +zone=37 +south +datum=WGS84 +units=m +no_defs</proj4>
-        <srsid>3187</srsid>
-        <srid>32737</srid>
-        <authid>EPSG:32737</authid>
-        <description>WGS 84 / UTM zone 37S</description>
-        <projectionacronym>utm</projectionacronym>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124150344434"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="railways20150908104736434"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="natural20151103004854364"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways20150908110046021"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Protected_area_categories_copy20151102214806081"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_copy20151102214259220"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124144208322"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterbodies_africa20150607011609661"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="railways_copy20151102214254384"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124143924190"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways_copy20151102214256717"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania_copy20150904075256703"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tz_srtm_41_hillshade20150904132705244"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124154904574"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania20150607011923245"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124144332034"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20150908110053885"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Protected_area_categories_copy20151111153025996"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania_and_africawater20151124163124002"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_adm0_copy20150904080227941"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wilderness_tanzania20151124151044615"/>
-      <layer_coordinate_transform destAuthId="EPSG:32737" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="WDPA_June2015_TZA_shapefile_polygons20150607010149065"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways_copy20151102214256717"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="WDPA_June2015_TZA_shapefile_polygons20150607010149065"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Protected_area_categories_copy20151102214806081"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania_copy20150904075256703"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20150908110053885"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterbodies_africa20150607011609661"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tz_srtm_41_hillshade20150904132705244"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_copy20151102214259220"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_adm0_copy20150904080227941"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="railways20150908104736434"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="railways_copy20151102214254384"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways20150908110046021"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Protected_area_categories_copy20151111153025996"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tanzania20150607011923245"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -155,8 +149,8 @@
           <legendlayerfile isInOverview="0" layerid="roads_copy20151102214259220" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Protected area categories" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Protected area categories" showFeatureCount="1">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Protected_area_categories_copy20151102214806081" visible="1"/>
         </filegroup>
       </legendlayer>
@@ -233,7 +227,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="National map" visible="1">
+  <Composer title="National map" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="594" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -250,32 +244,112 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerShape shapeType="1" cornerRadius="0">
-        <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-          <layer pass="0" class="SimpleFill" locked="0">
-            <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
-          </layer>
-        </symbol>
-        <ComposerItem pagey="609.975" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="320.831" y="609.975" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="209.926" outlineWidth="0.3" excludeFromExports="0" uuid="{d518ed83-1688-4a5a-b7af-12c1eb9b32ea}" height="124.107" itemRotation="0" frame="false" pagex="320.831">
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="This map is part of an open source protected areas map hosted at GitHub. All necessary code to reproduce this map using QGIS is available on the project website. Main contriutor is Ragnvald Laren. Other contributions are from someone, someone and someone. &#xa;&#xa;About making the map&#xa;" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="729.353" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="242.947" y="729.353" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="98.5" outlineWidth="0.3" excludeFromExports="0" uuid="{e6b46056-beb1-4059-9e1f-52c60b6d31b9}" height="92.1391" itemRotation="0" frame="false" pagex="242.947">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
-      </ComposerShape>
+      </ComposerLabel>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="5174677.30558893829584122" xmin="-4994617.1484582107514143" ymax="13294923.45671800523996353" xmax="3605677.07562329014763236"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{8797d744-3aec-4ade-b6f5-91ab721e2b20}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <ComposerMapOverview frameMap="0" centered="0" inverted="0" uuid="{b9d2f28e-0453-43ea-9b7f-6db13efa9e66}" name="Overview 1" show="1" blendMode="0">
+          <symbol alpha="0.827451" clip_to_extent="1" type="fill" name="">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,0,0,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="211,208,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </ComposerMapOverview>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="606.409" page="1" id="" lastValidViewScaleFactor="0.504202" positionMode="0" positionLock="false" x="351" y="606.409" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="232.543" outlineWidth="0.3" excludeFromExports="0" uuid="{6506f368-0a0f-4d3c-9b88-5e93a85dd787}" height="219.563" itemRotation="0" frame="false" pagex="351">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="177" green="244"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Source: World Database on Protected Areas (WDPA) Annual&#xa;Release 2009 (web download version), February 2009. The&#xa;WDPA is a joint product of UNEP and IUCN, prepared by UNEP-WCMC, supported by IUCN WCPA and working with Governments, the Secretariats of MEAs and collaborating NGOs. For further information protectedareas@unep-wcmc.org. Other sources: www.qdgc.org and www.tzgisug.org" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,18,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="775.423" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="10.457" y="775.423" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="225.33" outlineWidth="0.3" excludeFromExports="0" uuid="{6fdc2998-1e25-477f-915f-a87b1a8d47c2}" height="50.5499" itemRotation="0" frame="false" pagex="10.457">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="We suggest that any comments or informations on deviations of the presented data from public data are forwarded to World Database on Protected areas." htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="619.44" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="19.8174" y="619.44" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="98.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d85e26a1-8ef6-47ca-aaf5-6ade6e8e683b}" height="92.1391" itemRotation="0" frame="false" pagex="19.8174">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Nordpil" htmlState="0" halign="1">
         <LabelFont description="Wingdings,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="97.7016" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="539.339" y="97.7016" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.0073" outlineWidth="0.3" excludeFromExports="0" uuid="{bde2de4f-4182-443f-bf9a-f9c1006500ec}" height="40.2689" itemRotation="0" frame="false" pagex="539.339">
+        <ComposerItem pagey="97.7016" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="539.339" y="97.7016" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.0073" outlineWidth="0.3" excludeFromExports="0" uuid="{bde2de4f-4182-443f-bf9a-f9c1006500ec}" height="40.2689" itemRotation="0" frame="false" pagex="539.339">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -287,13 +361,13 @@
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="572.542" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.3993" y="572.542" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.451" outlineWidth="0.3" excludeFromExports="0" uuid="{e0733bc3-561b-4eda-8b10-2809c18e388c}" height="16.2" itemRotation="0" frame="false" pagex="15.3993">
+        <ComposerItem pagey="572.542" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="15.3993" y="572.542" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.451" outlineWidth="0.3" excludeFromExports="0" uuid="{e0733bc3-561b-4eda-8b10-2809c18e388c}" height="16.2" itemRotation="0" frame="false" pagex="15.3993">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="226" blue="113" green="181"/>
           <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
-      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" rasterBorderWidth="0" splitLayer="1" equalColumnWidth="1" map="0" titleAlignment="1" rasterBorder="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#ab804b" columnSpace="2" wmsLegendWidth="50" columnCount="3" rasterBorderColor="0,0,0,255">
+      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" rasterBorderWidth="0" splitLayer="1" equalColumnWidth="1" map="0" titleAlignment="1" rasterBorder="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#ab804b" columnSpace="2" wmsLegendWidth="50" columnCount="1" rasterBorderColor="0,0,0,255">
         <styles>
           <style marginBottom="2" name="title">
             <styleFont description="MS Shell Dlg 2,28,-1,5,50,0,0,0,0,0" style=""/>
@@ -314,10 +388,12 @@
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
           <layer-tree-layer expanded="1" checked="Qt::Checked" id="WDPA_June2015_TZA_shapefile_polygons20150607010149065" name="Protected area categories">
-            <customproperties/>
+            <customproperties>
+              <property key="legend/node-order" value="0,1,2,3,5,6,7,8,9,10,11,12"/>
+            </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="611.12" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="10.457" y="611.12" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="267.7" outlineWidth="1.5" excludeFromExports="0" uuid="{47243f00-27ec-4eed-940a-26155c7c5f97}" height="54.3" itemRotation="0" frame="true" pagex="10.457">
+        <ComposerItem pagey="607.159" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="243.697" y="607.159" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="97" outlineWidth="1.5" excludeFromExports="0" uuid="{47243f00-27ec-4eed-940a-26155c7c5f97}" height="116.7" itemRotation="0" frame="true" pagex="243.697">
           <FrameColor alpha="255" red="213" blue="153" green="226"/>
           <BackgroundColor alpha="255" red="213" blue="153" green="226"/>
           <customproperties/>
@@ -384,7 +460,7 @@
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="83.828" page="1" id="Main map" lastValidViewScaleFactor="0.757408" positionMode="0" positionLock="false" x="10.957" y="83.828" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="bevel" blendMode="0" width="572.086" outlineWidth="1.5" excludeFromExports="0" uuid="{522c1370-eed7-4ff8-9cd7-4d7f32587e35}" height="512.052" itemRotation="0" frame="true" pagex="10.957">
+        <ComposerItem pagey="83.828" page="1" id="Main map" lastValidViewScaleFactor="1.51482" positionMode="0" positionLock="false" x="10.957" y="83.828" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="bevel" blendMode="0" width="572.086" outlineWidth="1.5" excludeFromExports="0" uuid="{522c1370-eed7-4ff8-9cd7-4d7f32587e35}" height="512.052" itemRotation="0" frame="true" pagex="10.957">
           <FrameColor alpha="255" red="226" blue="113" green="181"/>
           <BackgroundColor alpha="255" red="255" blue="177" green="244"/>
           <customproperties/>
@@ -730,28 +806,28 @@
             <customproperties/>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="64.038" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="246.546" y="64.038" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.9" outlineWidth="0.3" excludeFromExports="0" uuid="{c05a1440-f4ff-47d4-befb-c3e6ee528034}" height="20.6" itemRotation="0" frame="false" pagex="246.546">
+        <ComposerItem pagey="75.5548" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="356.707" y="75.5548" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="40.1" outlineWidth="0.3" excludeFromExports="0" uuid="{c05a1440-f4ff-47d4-befb-c3e6ee528034}" height="82.3" itemRotation="0" frame="false" pagex="356.707">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;table>&#xa;&lt;tr>&#xa;&lt;td>Area&lt;/td>&lt;td>[%to_int( $area /1000000 )%] km2&lt;/td>&#xa;&lt;/tr>&#xa;&lt;tr>&#xa;&lt;td>Perimeter&lt;/td>&lt;td>[%to_int($perimeter/1000) %] km&lt;/td>&#xa;&lt;/tr>&#xa;&lt;/table>" htmlState="2" halign="1">
-        <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Area: [%to_int( $area /1000000 )%] km2&#xa;Perimeter: [%to_int($perimeter/1000) %] km" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,18,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="29.2059" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="188.556" y="29.2059" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.7" outlineWidth="0.3" excludeFromExports="0" uuid="{518aaba9-b8d3-4db8-9706-b02889812ccf}" height="20.591" itemRotation="0" frame="false" pagex="188.556">
+        <ComposerItem pagey="147.184" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="273.179" y="147.184" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="77.1657" outlineWidth="0.3" excludeFromExports="0" uuid="{518aaba9-b8d3-4db8-9706-b02889812ccf}" height="28.7058" itemRotation="0" frame="false" pagex="273.179">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="10000" segmentSizeMode="0" alignment="0" numSegments="2" segmentMillimeters="inf" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="1" maxBarWidth="150" height="2" boxContentSpace="1" mapId="1" unitLabel="km">
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="10000" segmentSizeMode="1" alignment="0" numSegments="2" segmentMillimeters="18.0353" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="200000" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="1" maxBarWidth="70" height="2" boxContentSpace="1" mapId="1" unitLabel="km">
         <scaleBarFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="188.2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.827" y="188.2" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="inf" outlineWidth="0.3" excludeFromExports="0" uuid="{34f5fe3f-a091-4645-a710-295d1f65f81b}" height="13.952" itemRotation="0" frame="false" pagex="7.827">
+        <ComposerItem pagey="259.736" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="169.941" y="259.736" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.6058" outlineWidth="0.3" excludeFromExports="0" uuid="{34f5fe3f-a091-4645-a710-295d1f65f81b}" height="10.5" itemRotation="0" frame="false" pagex="169.941">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -760,14 +836,14 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="[%DESIG_ENG + ': ' +  &quot;name&quot; %]" htmlState="0" halign="1">
         <LabelFont description="Calibri,28,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="90" blue="79" green="91"/>
-        <ComposerItem pagey="6.4038" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.12511" y="6.4038" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.452" outlineWidth="0.3" excludeFromExports="0" uuid="{82fcc20c-c5ae-4f01-a0cc-054891568367}" height="18.4999" itemRotation="0" frame="false" pagex="5.12511">
+        <ComposerItem pagey="6.4038" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="11.1339" y="6.4038" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="177.452" outlineWidth="0.3" excludeFromExports="0" uuid="{82fcc20c-c5ae-4f01-a0cc-054891568367}" height="18.4999" itemRotation="0" frame="false" pagex="11.1339">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-542957.08709929347969592" xmin="3142365.95315298344939947" ymax="651664.19266873528249562" xmax="5181321.25607909355312586"/>
+        <Extent ymin="-542957.08709929347969592" xmin="3142365.95315298344939947" ymax="922273.91413043485954404" xmax="5181321.25607909355312586"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{09321b86-3fa1-48f6-9507-0f6a302fa5b2}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -835,44 +911,14 @@
           </symbol>
         </ComposerMapOverview>
         <AtlasMap scalingMode="2" atlasDriven="1" margin="10"/>
-        <ComposerItem pagey="145.635" page="1" id="Overview map" lastValidViewScaleFactor="0" positionMode="0" positionLock="false" x="188.556" y="145.635" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.7" outlineWidth="0.3" excludeFromExports="0" uuid="{e295a12d-527f-4578-9dda-c37e89a5ab42}" height="59" itemRotation="0" frame="false" pagex="188.556">
+        <ComposerItem pagey="188.2" page="1" id="Overview map" lastValidViewScaleFactor="1.99708" positionMode="0" positionLock="false" x="273.179" y="188.2" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="135.751" outlineWidth="0.3" excludeFromExports="0" uuid="{e295a12d-527f-4578-9dda-c37e89a5ab42}" height="97.5532" itemRotation="0" frame="false" pagex="273.179">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="177" green="244"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="3" rasterBorder="1">
-        <styles>
-          <style marginBottom="4" name="title">
-            <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="group">
-            <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="subgroup">
-            <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="symbol">
-            <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" marginLeft="2" name="symbolLabel">
-            <styleFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-        </styles>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="">
-          <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="WDPA_June2015_TZA_shapefile_polygons20150607010149065" name="Protected area categories">
-            <customproperties/>
-          </layer-tree-layer>
-        </layer-tree-group>
-        <ComposerItem pagey="63.3454" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="188.556" y="63.3454" visibility="1" zValue="2" background="true" transparency="16" frameJoinStyle="miter" blendMode="0" width="24.9" outlineWidth="0.3" excludeFromExports="0" uuid="{e12bd21b-3e96-4300-a818-b4e288afc760}" height="18.2" itemRotation="0" frame="false" pagex="188.556">
-          <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
-        </ComposerItem>
-      </ComposerLegend>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Render" drawCanvasItems="true">
-        <Extent ymin="-1524854.97115904674865305" xmin="2558483.29822414088994265" ymax="1633562.07672848855145276" xmax="5765203.91100793611258268"/>
+        <Extent ymin="-1524854.97115904674865305" xmin="2558483.29822414088994265" ymax="1770176.88025652267970145" xmax="5765203.91100793611258268"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{aa3d9376-6958-4bb8-a963-108d00fcd716}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -923,7 +969,7 @@
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="1" margin="0.25"/>
-        <ComposerItem pagey="29.8559" page="1" id="Main atlas map" lastValidViewScaleFactor="0" positionMode="0" positionLock="false" x="5.12511" y="29.8559" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="177.452" outlineWidth="1.3" excludeFromExports="0" uuid="{cf4df473-97fa-421d-a120-88a9bd89824a}" height="174.779" itemRotation="0" frame="true" pagex="5.12511">
+        <ComposerItem pagey="29.8559" page="1" id="Main atlas map" lastValidViewScaleFactor="1.99708" positionMode="0" positionLock="false" x="11.7839" y="29.8559" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="248.406" outlineWidth="1.3" excludeFromExports="0" uuid="{cf4df473-97fa-421d-a120-88a9bd89824a}" height="255.247" itemRotation="0" frame="true" pagex="11.7839">
           <FrameColor alpha="255" red="125" blue="35" green="131"/>
           <BackgroundColor alpha="255" red="255" blue="177" green="244"/>
           <customproperties/>
@@ -932,85 +978,6 @@
       <customproperties/>
     </Composition>
     <Atlas hideCoverage="false" featureFilter="DESIG_ENG = 'National Park'" coverageLayer="WDPA_June2015_TZA_shapefile_polygons20150607010149065" singleFile="true" filenamePattern="'output_'||$feature" enabled="true" filterFeatures="true" sortFeatures="false" pageNameExpression=""/>
-  </Composer>
-  <Composer title="Atlas National parks" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-        <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="255,255,255,255"/>
-          <prop k="joinstyle" v="miter"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="no"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
-      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="8935270.01808002591133118" xmin="-632588.65529323206283152" ymax="10140812.28374980203807354" xmax="618323.48058992275036871"/>
-        <LayerSet/>
-        <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{e69c2e21-e9a2-4acd-a2f7-f9c91250fea3}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
-          <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
-              <layer pass="0" class="SimpleLine" locked="0">
-                <prop k="capstyle" v="square"/>
-                <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="customdash_unit" v="MM"/>
-                <prop k="draw_inside_polygon" v="0"/>
-                <prop k="joinstyle" v="bevel"/>
-                <prop k="line_color" v="0,0,0,255"/>
-                <prop k="line_style" v="solid"/>
-                <prop k="line_width" v="0"/>
-                <prop k="line_width_unit" v="MM"/>
-                <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
-              </layer>
-            </symbol>
-          </lineStyle>
-          <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
-              <layer pass="0" class="SimpleMarker" locked="0">
-                <prop k="angle" v="0"/>
-                <prop k="color" v="0,0,0,255"/>
-                <prop k="horizontal_anchor_point" v="1"/>
-                <prop k="name" v="circle"/>
-                <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="offset_unit" v="MM"/>
-                <prop k="outline_color" v="0,0,0,255"/>
-                <prop k="outline_style" v="solid"/>
-                <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="outline_width_unit" v="MM"/>
-                <prop k="scale_method" v="diameter"/>
-                <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-                <prop k="size_unit" v="MM"/>
-                <prop k="vertical_anchor_point" v="1"/>
-              </layer>
-            </symbol>
-          </markerStyle>
-          <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-        </ComposerMapGrid>
-        <AtlasMap scalingMode="2" atlasDriven="1" margin="0.40000000000000002"/>
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="1.87115" positionMode="0" positionLock="false" x="6" y="10" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="193" outlineWidth="0.3" excludeFromExports="0" uuid="{303db9ae-15b3-471d-88da-4bd78eaa5514}" height="186" itemRotation="0" frame="false" pagex="6">
-          <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="255" blue="177" green="244"/>
-          <customproperties/>
-        </ComposerItem>
-      </ComposerMap>
-      <customproperties/>
-    </Composition>
-    <Atlas hideCoverage="false" featureFilter=" &quot;DESIG_ENG&quot;  =  'National Park' " coverageLayer="Protected_area_categories_copy20151102214806081" singleFile="false" filenamePattern="'output_'||@atlas_featurenumber" enabled="true" filterFeatures="true" sortFeatures="true" pageNameExpression="" sortKey="DESIG_TYPE" sortAscending="true"/>
   </Composer>
   <projectlayers layercount="17">
     <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
@@ -1155,18 +1122,18 @@
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer">
         <rules key="{5b3c814e-9b13-45ee-8cc7-8bd1e1354ff5}">
           <rule filter="DESIG_ENG = 'World Heritage Convention'" key="{b9e0881b-87e9-44b4-bff3-ca4fd6305369}" symbol="0" label="World Heritage Convention"/>
-          <rule filter="DESIG_ENG = 'Wetlands of International Importance (Ramsar)'" key="{f6dadb12-42db-4a28-b055-c56612c5b1d6}" symbol="1" label="Ramsar area"/>
+          <rule checkstate="0" filter="DESIG_ENG = 'Wetlands of International Importance (Ramsar)'" key="{f6dadb12-42db-4a28-b055-c56612c5b1d6}" symbol="1" label="Ramsar area"/>
           <rule filter="DESIG_ENG = 'Village Forest Reserve'" key="{ed640565-69da-43bf-a9bb-cf8fd0d0767a}" symbol="2" label="Village Forest Reserve"/>
           <rule filter="DESIG_ENG = 'Nature Reserve'" key="{73a14517-e8e8-4d08-b199-d4b3bc3e4e5b}" symbol="3" label="Nature Reserve"/>
           <rule filter="DESIG_ENG = 'National Reserve'" key="{77dd5fd6-6c84-49eb-b459-ff5faa615acc}" symbol="4" label="National Reserve"/>
           <rule filter="DESIG_ENG = 'Marine Reserve'" key="{9935fcee-ce1f-41a3-bb21-119bb51706b9}" symbol="5" label="Marine Reserve"/>
-          <rule filter="DESIG_ENG = 'Hunting Reserve'" key="{3cee2979-7f8e-4649-93a0-de84e54a9375}" symbol="6" label="Hunting Reserve"/>
+          <rule checkstate="0" filter="DESIG_ENG = 'Hunting Reserve'" key="{3cee2979-7f8e-4649-93a0-de84e54a9375}" symbol="6" label="Hunting Reserve"/>
           <rule filter="DESIG_ENG = 'Wildlife Management Area'" key="{129dedd2-2410-4d34-b64f-83cc68eae395}" symbol="7" label="Wildlife Management Area"/>
           <rule filter="DESIG_ENG = 'State Forest Reserve'" key="{01db1443-61b9-45da-894f-e40c31087286}" symbol="8" label="State Forest Reserve"/>
           <rule filter="DESIG_ENG = 'Forest Reserve'" key="{9e96c830-b801-4c99-86ed-59637b04a1f6}" symbol="9" label="Forest Reserve"/>
           <rule filter="DESIG_ENG = 'Game Reserve'" key="{b38272f0-13a2-41bf-b19a-790457285f80}" symbol="10" label="Game Reserve"/>
           <rule filter="DESIG_ENG = 'Game Controlled Area'" key="{b1fb7fb2-b16c-4de1-83e0-b5ee994b1116}" symbol="11" label="Game Controlled Area"/>
-          <rule filter="DESIG_ENG = 'Conservation Area'" key="{01e16f2d-c2ff-4e73-ad7e-02b7c22906ed}" symbol="12" label="Conservation Area"/>
+          <rule checkstate="0" filter="DESIG_ENG = 'Conservation Area'" key="{01e16f2d-c2ff-4e73-ad7e-02b7c22906ed}" symbol="12" label="Conservation Area"/>
           <rule filter="DESIG_ENG = 'Marine Park'" key="{7f5dcf59-a01f-46c8-b0ee-6022956e9a97}" symbol="13" label="Marine Park"/>
           <rule filter="DESIG_ENG = 'National Park'" key="{bf607522-61c4-436b-ac3f-42bc2ae55d7b}" symbol="14" label="National Park"/>
         </rules>
@@ -2815,7 +2782,7 @@
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer">
         <rules key="{5b3c814e-9b13-45ee-8cc7-8bd1e1354ff5}">
-          <rule filter="DESIG_ENG = 'World Heritage Convention'" key="{b9e0881b-87e9-44b4-bff3-ca4fd6305369}" symbol="0" label="World Heritage Convention"/>
+          <rule checkstate="0" filter="DESIG_ENG = 'World Heritage Convention'" key="{b9e0881b-87e9-44b4-bff3-ca4fd6305369}" symbol="0" label="World Heritage Convention"/>
           <rule filter="DESIG_ENG = 'Nature Reserve'" key="{73a14517-e8e8-4d08-b199-d4b3bc3e4e5b}" symbol="1" label="Nature Reserve"/>
           <rule filter="DESIG_ENG = 'National Reserve'" key="{77dd5fd6-6c84-49eb-b459-ff5faa615acc}" symbol="2" label="National Reserve"/>
           <rule filter="DESIG_ENG = 'Marine Reserve'" key="{9935fcee-ce1f-41a3-bb21-119bb51706b9}" symbol="3" label="Marine Reserve"/>
@@ -6715,7 +6682,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>tanzania_copy20150904075256703</id>
       <datasource>../data_repository/general/diverse/tanzania.shp</datasource>
       <title></title>
@@ -6754,20 +6721,20 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" preprocessing="0" type="invertedPolygonRenderer">
+      <renderer-v2 forceraster="0" preprocessing="1" type="invertedPolygonRenderer">
         <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
           <symbols>
             <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
               <layer pass="0" class="ShapeburstFill" locked="0">
-                <prop k="blur_radius" v="11"/>
-                <prop k="color" v="255,244,177,255"/>
+                <prop k="blur_radius" v="2"/>
+                <prop k="color" v="237,228,174,255"/>
                 <prop k="color1" v="0,0,255,255"/>
                 <prop k="color2" v="0,255,0,255"/>
                 <prop k="color_type" v="0"/>
                 <prop k="discrete" v="0"/>
                 <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
                 <prop k="distance_unit" v="MM"/>
-                <prop k="gradient_color2" v="255,255,255,255"/>
+                <prop k="gradient_color2" v="242,238,210,255"/>
                 <prop k="ignore_rings" v="0"/>
                 <prop k="max_distance" v="30"/>
                 <prop k="offset" v="0,0"/>
@@ -6808,8 +6775,10 @@
         <property key="labeling/distInMapUnits" value="false"/>
         <property key="labeling/distMapUnitMaxScale" value="0"/>
         <property key="labeling/distMapUnitMinScale" value="0"/>
+        <property key="labeling/drawLabels" value="false"/>
         <property key="labeling/enabled" value="false"/>
         <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontBold" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
         <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
@@ -6843,6 +6812,8 @@
         <property key="labeling/multilineHeight" value="1"/>
         <property key="labeling/namedStyle" value="Normal"/>
         <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="1"/>
         <property key="labeling/placementFlags" value="0"/>
@@ -6924,6 +6895,8 @@
         <property key="labeling/wrapChar" value=""/>
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>1</blendMode>
       <featureBlendMode>1</featureBlendMode>
@@ -6951,7 +6924,7 @@
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
@@ -8902,9 +8875,9 @@
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
@@ -9037,9 +9010,9 @@
       <filterByMap type="bool">false</filterByMap>
     </Legend>
     <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=utm +zone=37 +south +datum=WGS84 +units=m +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:32737</ProjectCrs>
-      <ProjectCRSID type="int">3187</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
     <DefaultStyles>
